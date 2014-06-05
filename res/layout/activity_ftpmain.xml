@@ -1,11 +1,20 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
-    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/abc_action_bar_subtitle_top_margin"
     android:padding="6dip" >
 
     <Button
+        android:id="@+id/button2"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_weight="0.80"
+        android:text="Button" />
+
+    <Button
         android:id="@+id/button1"
-        android:layout_width= "0dp"
+        android:layout_width="0dp"
         android:layout_height="74dp"
         android:layout_weight="0.80"
         android:text="@string/btn_download" />

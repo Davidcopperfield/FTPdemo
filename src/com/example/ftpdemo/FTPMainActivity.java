@@ -19,7 +19,13 @@ import android.widget.Toast;
 
 
 public class FTPMainActivity extends Activity {
-
+    //…µ±∆Buttons  
+    private Button buttonUpLoad = null;  
+    private Button buttonDownLoad = null;  
+      
+    //FTPπ§æﬂ¿‡  
+    private FTPUtils ftpUtils = null;  
+    
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
